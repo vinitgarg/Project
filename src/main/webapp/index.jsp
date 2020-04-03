@@ -9,25 +9,25 @@
 <form action="add" method="Get">
 <table>
 <tr>
-   <th>First Name:-</th>
+   <th id="name">First Name:-</th>
    <td><input type="text" name="fn"><br></td>
 </tr>
 <tr>
-   <th><label>Last Name:-</label></th>
+   <th id="sign">Last Name:-</th>
    <td><input type="text" name="ln"><br></td>
 </tr>
 <tr>
-   <th><label>Age:-</label></th>
+   <th id="age">Age:-</th>
    <td><input type="text" name="n"><br></td>
 </tr>
 <tr>   
-   <th><label>Address:-</label></th>
+   <th id="address">Address:-</th>
    <td><input type="text" name="adrs" ><br><br></td>
   </tr>
    
   <tr>
   
-   <th><input type="submit" value="submit"></th>
+   <td><input type="submit" value="submit"></td>
    </tr>
 </table>   
 </form>
