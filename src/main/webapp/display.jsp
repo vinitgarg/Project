@@ -10,16 +10,16 @@
 <center><h2>Registration done!</h2>
 <table>
 <tr>
-    <th>First Name:- &nbsp;&nbsp;&nbsp; ${a}<br></th>
+    <th id="fname">First Name:- &nbsp;&nbsp;&nbsp; ${a}<br></th>
 </tr>
 <tr>
-       <th>Last Name:-  &nbsp;&nbsp;&nbsp;${b}<br></th>
+       <th id="lname">Last Name:-  &nbsp;&nbsp;&nbsp;${b}<br></th>
  </tr>
  <tr>
-       <th> Address:-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  ${c}<br></th>
+       <th id="address"> Address:-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  ${c}<br></th>
 </tr>
 <tr>
-       <th> Age:-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ${d}</th>
+       <th id="age"> Age:-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ${d}</th>
   </tr>
 </table> </center>
 </body>
