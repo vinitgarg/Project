@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="ISO-8859-1">
 <title>USER FORM</title>
@@ -9,25 +9,25 @@
 <form action="add" method="Get">
 <table>
 <tr>
-   <td>First Name:-</td>
+   <th>First Name:-</th>
    <td><input type="text" name="fn"><br></td>
 </tr>
 <tr>
-   <td><label>Last Name:-</label></td>
+   <th><label>Last Name:-</label></th>
    <td><input type="text" name="ln"><br></td>
 </tr>
 <tr>
-   <td><label>Age:-</label></td>
+   <th><label>Age:-</label></th>
    <td><input type="text" name="n"><br></td>
 </tr>
 <tr>   
-   <td><label>Address:-</label></td>
+   <th><label>Address:-</label></th>
    <td><input type="text" name="adrs" ><br><br></td>
   </tr>
    
   <tr>
   
-   <td><input type="submit" value="submit"></td>
+   <th><input type="submit" value="submit"></th>
    </tr>
 </table>   
 </form>
