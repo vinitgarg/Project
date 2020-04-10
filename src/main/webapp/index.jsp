@@ -5,7 +5,7 @@
 <title>USER FORM</title>
 </head>
 <body>
-<center><h2>Register Here!</h2>
+<h2>Register Here!</h2>
 <form action="add" method="Get">
 <table>
 <tr>
@@ -31,6 +31,6 @@
    </tr>
 </table>   
 </form>
-</center>
+
 </body>
 </html>
