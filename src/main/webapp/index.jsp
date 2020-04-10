@@ -5,9 +5,9 @@
 <title>USER FORM</title>
 </head>
 <body>
-<h2>Register Here!</h2>
 <form action="add" method="Get">
 <table>
+<caption><h2>Done!<br></h2></caption>
 <tr>
    <th id="name">First Name:-</th>
    <td><input type="text" name="fn"><br></td>

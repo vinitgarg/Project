@@ -6,8 +6,9 @@
 <meta charset="ISO-8859-1">
 <title>USER FORM</title>
 </head>
-<body><h2>Registration done!</h2>
+<body>
 <table>
+<caption><h2>Done!<br></h2></caption>
 <tr>
     <th id="fname">First Name:- &nbsp;&nbsp;&nbsp; ${a}<br></th>
 </tr>
@@ -20,5 +21,6 @@
 <tr>
        <th id="age"> Age:-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ${d}</th>
   </tr>
-</table> </body>
+</table> 
+</body>
 </html>
