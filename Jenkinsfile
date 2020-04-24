@@ -49,6 +49,17 @@ tools{
                                     }
                                }
       
+                  stage('Deploy to tomcat'){
+                                 steps{
+                                       bat "copy target\\MVC.war \"C:\\Users\\vinitgarg\\apache-tomcat-8.5.51\\webapps\""                                   
+                                }
+                                   }
+                      stage('Deploy to localhost'){
+                         steps{  
+                                 bat "docker rm -f MVC"
+                                 bat "docker run -d --name MVC -p 80:8080 vkgarg/training:%BUILD_NUMBER%"
+                         }
+                      }
       
       
 }
