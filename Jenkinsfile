@@ -3,7 +3,10 @@ pipeline{
 tools{
      maven 'Maven'
    }
-   
+   environment {
+    registry = "vkgarg/training"
+    registryCredential = 'Docker'
+     }
 
  
    stages {
@@ -33,5 +36,20 @@ tools{
                                        bat 'mvn deploy'
                                       }
                                      }
+                     stage('Building image') {
+                           steps{
+                              script {
+                                   dockerImage= docker.build registry + ":$BUILD_NUMBER"
+                                     }
+                                }
+                               }
+                       stage('Push image to dockerhub') {
+                           steps{
+                                    bat "docker push vkgarg/training:%BUILD_NUMBER%"
+                                    }
+                               }
+      
+      
+      
 }
 }
