@@ -53,6 +53,20 @@
     
     
   </dependencies>
+  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>vinitgarg-releases</name>
+        <url>http://localhost:8081/artifactory/Training_repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>vinitgarg-snapshots</name>
+        <url>http://localhost:8081/artifactory/Training_repo</url>
+    </snapshotRepository>
+</distributionManagement>
+  
   <build>
     <finalName>MVC</finalName>
   </build>
